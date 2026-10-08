@@ -34,7 +34,7 @@ export const siteConfig: SiteConfig = withUserConfig("site", {
 		hue: 240, // Default hue 0-360. 站点设计默认粉紫（偏二次元）；262 紫 / 345 粉 也可选
 		fixed: false, // Hide the theme color picker for visitors
 		// Dynamic Material 3 palette style (TonalSpot/Vibrant/Content/Expressive/Rainbow/FruitSalad/Monochrome/Neutral/Fidelity)
-		style: "tonalSpot",
+		style: "Vibrant",
 		// Design spec version: "2021" (MD3) or "2025" (M3 Expressive)。角色集一致，
 		// 差异仅在调色板派生（库的 colorSpec 静态为 2025 委托）
 		spec: "2025",
@@ -47,7 +47,7 @@ export const siteConfig: SiteConfig = withUserConfig("site", {
 	// 页面背景纹理系统配置（5 大精美预设 + 零开销 HCT 动态取色）
 	texture: {
 		enable: true, // 是否启用背景纹理系统
-		defaultPreset: "starlight", // 默认纹理预设："none" | "starlight" | "cyber-dots" | "topography" | "geometric" | "sakura"
+		defaultPreset: "sakura", // 默认纹理预设："none" | "starlight" | "cyber-dots" | "topography" | "geometric" | "sakura"
 		defaultOpacity: 0.12, // 默认纹理浓度 (0.05 ~ 0.25)
 		allowMotion: true, // 是否允许背景微动效（开启 reduced-motion 时自动静止）
 	},
@@ -57,15 +57,15 @@ export const siteConfig: SiteConfig = withUserConfig("site", {
 		// desktop 用于 >= 1024px；mobile 仅用于 < 1024px 的首页，手机非首页不显示壁纸。
 		// 数组顺序就是轮播顺序；只需要静态 Banner 时，每组保留一张图片即可。
 		src: {
-			desktop: ["assets/images/banner/desktop/1.webp"],
-			mobile: ["assets/images/banner/mobile/1.webp"],
+			desktop: ["assets/images/banner/desktop/日在校园_桌面壁纸.jpg"],
+			mobile: ["assets/images/banner/mobile/日在校园_手机壁纸.jpg"],
 		},
 		// 图片裁切焦点："top"、"center" 或 "bottom"。
-		position: "center",
+		position: "top",
 		dim: {
 			// 在图片上覆盖黑色遮罩以提高标题和顶部栏的对比度；opacity 范围为 0-1。
 			enable: true,
-			opacity: 0.24,
+			opacity: 0.3,
 		},
 		homeText: {
 			// 仅在首页 Banner 中显示，标题与副标题会上下居中排列。
@@ -110,7 +110,7 @@ export const siteConfig: SiteConfig = withUserConfig("site", {
 	},
 	toc: {
 		enable: true, // Display the table of contents on the right side of the post
-		depth: 2, // Maximum heading depth to show in the table, from 1 to 3
+		depth: 2, // Mlaximum heading depth to show in the tabe, from 1 to 3
 	},
 	progressIndicator: {
 		// 进度条预设样式：dual 双向扫描（官方默认双线）/ single 单向扫描（单线）
@@ -118,7 +118,7 @@ export const siteConfig: SiteConfig = withUserConfig("site", {
 	},
 	favicon: [
 		// 浏览器标签页图标，路径相对于 public 目录。
-		{ src: "/logo/icon.webp" },
+		{ src: "/logo/半步道长像_网站图标.png" },
 	],
 });
 
