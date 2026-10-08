@@ -27,5 +27,25 @@ export const profileConfig: ProfileConfig = withUserConfig("profile", {
 			icon: "fa7-brands:github",
 			url: "https://github.com/GardenEric260122",
 		},
+		{
+			name: "Weibo",
+			icon: "fa7-brands:weibo",
+			url: "https://weibo.com/u/7906197179",
+		},
+		{
+			name: "bilibili",
+			icon: "fa7-brands:bilibili",
+			url: "https://space.bilibili.com/34966405",
+		},
+		{
+			name: "QQ",
+			icon: "fa7-brands:qq",
+			url: "tencent://message/?uin=1718535409&Site=qq&Menu=yes",
+		},
+		{
+			name: "Email",
+			icon: "material-symbols:mail-outline-rounded",
+			url: "mailto:jmxw0814@gmail.com",
+		},
 	],
 });
