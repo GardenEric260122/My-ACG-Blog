@@ -51,20 +51,22 @@ import { withUserConfig } from "../utils/config-overlay.ts";
 export const musicConfig: MusicConfig = withUserConfig("music", {
 	enable: true,
 	provider: "mixed",
-	// tracks: [
-	// 	{
-	// 		id: "custom-1",
-	// 		title: "示例曲目",
-	// 		artist: "艺术家",
-	// 		cover: "/assets/music/cover/example.webp",
-	// 		source: "/assets/music/url/example.mp3",
-	// 		duration: 240,
-	// 	},
-	// ],
+	tracks: [
+		{
+			id: "custom-1",
+			title: "Only My Railgun",
+			artist: "fripSide",
+			cover:
+				"/assets/music/cover/【某科学的超电磁炮】OP - Only My Railgun完整版.jpg",
+			source:
+				"/assets/music/url/【某科学的超电磁炮】OP - Only My Railgun完整版.m4a",
+			duration: 240,
+		},
+	],
 	meting: {
 		server: "netease",
 		type: "playlist",
-		id: "14164869977",
+		id: "7005596747",
 		// 进入视口时预取歌单元数据（仅元信息，不预取音频流）：
 		// "metadata"（取）| "none"（默认，不取；交互后才请求，卡片显示「尚未请求」占位）
 		preload: "none",
