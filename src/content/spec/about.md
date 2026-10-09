@@ -1,26 +1,32 @@
-# About Shirone
+# 关于我
 
-Welcome to the demo site of **Shirone** (白音) — an expressive, anime-inspired blog theme built on the **Material 3 Expressive (M3E)** design system.
+## ✦姓名与称呼
+我姓张，名字与“今明”同音，域名来自我的姓氏的日语音读ちょう(chou)还有日语常用称呼さん(san)，其实就是张先生的意思😎，听起来是不是有点像“臭桑”？😫 也可以叫我“今哥”，之前同学就是这么叫的🤣 这个"逸風Ventus”中的“逸風”据说是我爸原本要给我取的名字，结果后来被一个算命的根据五行起的名字给代替了~hhh, Ventus在拉丁语中是“风”的意思，感觉这种中英混合的名比较流行吧😊
 
-::github{repo="LyraVoid/Shirone"}
+## ✦基本信息
+中国辽宁省出身，阳历（公历）生日是8月14日，阴历（农历）生日是七月初二，顺直男，O型血，狮子座。
 
-## ✦ Design & Philosophy
+（说来这个O型血还是在高中生物社团活动上被当实验品采了一滴血验血型才知道的😂）
 
-Shirone aims to combine the warmth of expressive anime aesthetics with the rigor of modern web engineering:
+## ✦兴趣爱好
+广泛地喜爱各种风格的ACG作品及衍生的音乐舞蹈还有周边等等。对计算机、日语很感兴趣。对美食厨艺等生活话题感兴趣。喜欢刷B站。喜欢蓝色。喜欢抽奖。喜欢智力活动。
 
-- **Dynamic Chromatic Spell**: Full dynamic HCT palette generation responding seamlessly to light/dark modes and user preferences with zero layout shifts.
-- **Seamless Shell Navigation**: Persistent application shell driven by Swup for continuous music playback, smooth page transitions, and preserved state.
-- **Rich Story Grimoire**: Markdown and MDX authoring with KaTeX math, Mermaid diagrams, interactive admonitions, expressive code blocks, and adaptive image galleries.
-- **Zero Extra Burden**: Optional integrations (comments, analytics, music widgets) load dynamically on demand — zero DOM footprint and zero bundle overhead when disabled.
+对所有体育运动不感兴趣（因为我是体育白痴😫)，需要太多社交的活动不感兴趣，需要太多精力记忆力的活动不感兴趣。
 
-## ✦ Tech Stack
+## ✦技能长处
+- 我做饭很好吃，擅长东北家常菜，照猫画虎的能力比较强，跟着教程做很多别人做不好的菜一遍就能做成。
+- 熟练使用五笔盲打，打字速度每分钟平均在60个字以上（为了这个数据我还特意现测了一下😂)。
+- 计算机主要是前端开发,熟悉HTML，CSS，JavaScript等前端语言，正在熟悉前端框架中。（详见技能页）
+- 日语是入门水平，片假名还有一点没记住😥，还在不时学习。
+- 擅长策略类解谜类游戏，骨灰级RTT玩家，怪物猎人盾斧资深玩家（半退游，最近在捡崛起），Galgame入门玩家（其实什么类型的游戏都玩过一段时间，太多不赘述了，详见游戏页面）
 
-- **Framework**: [Astro 7](https://astro.build/) & [Svelte 5](https://svelte.dev/) (Runes-driven islands)
-- **Styling**: [Tailwind CSS 4](https://tailwindcss.com/) & [Stylus](https://stylus-lang.com/)
-- **Design Standard**: [Material 3 Expressive](https://m3.material.io/)
-- **Typography**: Outfit & Yozai (悠哉圆体) with automated build-time subsetting
-- **Search Engine**: [Pagefind](https://pagefind.app/) offline full-text search
-
-## ✦ Credits
-
-- **Font**: [Yozai Font (悠哉字体)](https://github.com/lxgw/yozai-font) by [lxgw](https://github.com/lxgw)
+## ✦计划打算
+想做一款Galgame游戏练练手，发现一个挺符合我需要的引擎，准备研究一下顺便巩固一下JS知识。
+::github{repo="TTQWNTian/Dvnge"}
+因为分身乏术没法全程观看所有喜欢的直播，于是想要对B站录播进行字幕识别，准备研究一下这个up主开源的项目。
+::github{repo="StarGazerQQD/BiliLiveCut"}
+还有维护改进我自己防止错过直播二次开发的B站直播提醒脚本
+::github{repo="GardenEric260122/Bili_stream_notify"}
+维护一个Fandom站的镜像备份和机器人
+::github{repo="GardenEric260122/lwy_wiki"}
+::github{repo="GradenEric260122/liwenya_bot"}
