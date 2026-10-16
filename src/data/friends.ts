@@ -26,19 +26,11 @@ export const friendsData: FriendItem[] = [
 	},
 	{
 		id: 2,
-		title: "Astro",
-		imgurl: "https://avatars.githubusercontent.com/u/44914786?v=4&s=640",
-		desc: "The web framework for content-driven websites",
-		siteurl: "https://astro.build",
-		tags: ["Framework"],
-	},
-	{
-		id: 3,
-		title: "Material 3",
-		imgurl: "https://avatars.githubusercontent.com/u/19478152?v=4&s=640",
-		desc: "Material Design 3 — the next generation of Material Design",
-		siteurl: "https://m3.material.io",
-		tags: ["Design"],
+		title: "Tian",
+		imgurl: "https://ttqwntian.top/favicon.png",
+		desc: "思い立ったが吉日 今すぐに参ります",
+		siteurl: "https://ttqwntian.top",
+		tags: ["音乐", "绘画", "Galgame", "前端"],
 	},
 ];
 
